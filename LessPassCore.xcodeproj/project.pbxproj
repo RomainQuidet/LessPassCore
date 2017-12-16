@@ -983,6 +983,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K66NHNFE93;
+				HEADER_SEARCH_PATHS = LessPassCore/libtommath/;
 				INFOPLIST_FILE = LessPassCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "-Wno-nullability-completeness";
@@ -997,6 +998,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K66NHNFE93;
+				HEADER_SEARCH_PATHS = LessPassCore/libtommath/;
 				INFOPLIST_FILE = LessPassCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_CFLAGS = "-Wno-nullability-completeness";
