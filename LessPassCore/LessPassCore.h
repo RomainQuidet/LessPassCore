@@ -15,5 +15,7 @@ FOUNDATION_EXPORT double LessPassCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char LessPassCoreVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LessPassCore/PublicHeader.h>
-
-
+#import <LessPassCore/LPCore.h>
+#import <LessPassCore/LPProfile.h>
+#import <LessPassCore/LPProfileCrypto.h>
+#import <LessPassCore/LPProfileOptions.h>

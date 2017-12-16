@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7ACA8CC11FE533A000367144 /* LessPassCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACA8CB71FE533A000367144 /* LessPassCore.framework */; };
-		7ACA8CC61FE533A000367144 /* LessPassCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8CC51FE533A000367144 /* LessPassCoreTests.m */; };
 		7ACA8CC81FE533A000367144 /* LessPassCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA8CBA1FE533A000367144 /* LessPassCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7ACA8D561FE534F400367144 /* bn_mp_exptmod.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8CD21FE534E100367144 /* bn_mp_exptmod.c */; };
 		7ACA8D571FE534F400367144 /* bn_mp_clear_multi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8CD31FE534E100367144 /* bn_mp_clear_multi.c */; };
@@ -142,6 +141,24 @@
 		7ACA8DD71FE534F500367144 /* bn_mp_gcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8D531FE534F400367144 /* bn_mp_gcd.c */; };
 		7ACA8DD81FE534F500367144 /* bn_mp_to_unsigned_bin_n.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8D541FE534F400367144 /* bn_mp_to_unsigned_bin_n.c */; };
 		7ACA8DD91FE534F500367144 /* bn_s_mp_mul_digs.c in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8D551FE534F400367144 /* bn_s_mp_mul_digs.c */; };
+		7ACA8DE71FE5361400367144 /* LPProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DDA1FE5361300367144 /* LPProfile.m */; };
+		7ACA8DE81FE5361400367144 /* LPProfileCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA8DDB1FE5361300367144 /* LPProfileCrypto.h */; };
+		7ACA8DE91FE5361400367144 /* LPProfileOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA8DDC1FE5361300367144 /* LPProfileOptions.h */; };
+		7ACA8DEA1FE5361400367144 /* LPRenderPassword_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA8DDD1FE5361300367144 /* LPRenderPassword_Private.h */; };
+		7ACA8DEB1FE5361400367144 /* LPCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA8DDE1FE5361300367144 /* LPCore.h */; };
+		7ACA8DEC1FE5361400367144 /* LPEntropyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DDF1FE5361300367144 /* LPEntropyResponse.m */; };
+		7ACA8DED1FE5361400367144 /* LPCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DE01FE5361400367144 /* LPCore.m */; };
+		7ACA8DEE1FE5361400367144 /* LPProfileOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DE11FE5361400367144 /* LPProfileOptions.m */; };
+		7ACA8DEF1FE5361400367144 /* LPProfileCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DE21FE5361400367144 /* LPProfileCrypto.m */; };
+		7ACA8DF01FE5361400367144 /* LPRenderPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DE31FE5361400367144 /* LPRenderPassword.m */; };
+		7ACA8DF11FE5361400367144 /* LPProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA8DE41FE5361400367144 /* LPProfile.h */; };
+		7ACA8DF21FE5361400367144 /* LPEntropyResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA8DE51FE5361400367144 /* LPEntropyResponse.h */; };
+		7ACA8DF31FE5361400367144 /* LPRenderPassword.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACA8DE61FE5361400367144 /* LPRenderPassword.h */; };
+		7ACA8DF91FE536D300367144 /* LPProfileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DF41FE536D300367144 /* LPProfileTests.m */; };
+		7ACA8DFA1FE536D300367144 /* LPRenderPasswordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DF51FE536D300367144 /* LPRenderPasswordTests.m */; };
+		7ACA8DFB1FE536D300367144 /* LPProfileCryptoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DF61FE536D300367144 /* LPProfileCryptoTests.m */; };
+		7ACA8DFC1FE536D300367144 /* LPCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DF71FE536D300367144 /* LPCoreTests.m */; };
+		7ACA8DFD1FE536D300367144 /* LPProfileOptionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACA8DF81FE536D300367144 /* LPProfileOptionsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,7 +176,6 @@
 		7ACA8CBA1FE533A000367144 /* LessPassCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LessPassCore.h; sourceTree = "<group>"; };
 		7ACA8CBB1FE533A000367144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACA8CC01FE533A000367144 /* LessPassCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessPassCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7ACA8CC51FE533A000367144 /* LessPassCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessPassCoreTests.m; sourceTree = "<group>"; };
 		7ACA8CC71FE533A000367144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ACA8CD21FE534E100367144 /* bn_mp_exptmod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bn_mp_exptmod.c; path = LessPassCore/libtommath/bn_mp_exptmod.c; sourceTree = SOURCE_ROOT; };
 		7ACA8CD31FE534E100367144 /* bn_mp_clear_multi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bn_mp_clear_multi.c; path = LessPassCore/libtommath/bn_mp_clear_multi.c; sourceTree = SOURCE_ROOT; };
@@ -293,6 +309,24 @@
 		7ACA8D531FE534F400367144 /* bn_mp_gcd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bn_mp_gcd.c; path = LessPassCore/libtommath/bn_mp_gcd.c; sourceTree = SOURCE_ROOT; };
 		7ACA8D541FE534F400367144 /* bn_mp_to_unsigned_bin_n.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bn_mp_to_unsigned_bin_n.c; path = LessPassCore/libtommath/bn_mp_to_unsigned_bin_n.c; sourceTree = SOURCE_ROOT; };
 		7ACA8D551FE534F400367144 /* bn_s_mp_mul_digs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bn_s_mp_mul_digs.c; path = LessPassCore/libtommath/bn_s_mp_mul_digs.c; sourceTree = SOURCE_ROOT; };
+		7ACA8DDA1FE5361300367144 /* LPProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProfile.m; sourceTree = "<group>"; };
+		7ACA8DDB1FE5361300367144 /* LPProfileCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPProfileCrypto.h; sourceTree = "<group>"; };
+		7ACA8DDC1FE5361300367144 /* LPProfileOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPProfileOptions.h; sourceTree = "<group>"; };
+		7ACA8DDD1FE5361300367144 /* LPRenderPassword_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPRenderPassword_Private.h; sourceTree = "<group>"; };
+		7ACA8DDE1FE5361300367144 /* LPCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPCore.h; sourceTree = "<group>"; };
+		7ACA8DDF1FE5361300367144 /* LPEntropyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPEntropyResponse.m; sourceTree = "<group>"; };
+		7ACA8DE01FE5361400367144 /* LPCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCore.m; sourceTree = "<group>"; };
+		7ACA8DE11FE5361400367144 /* LPProfileOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProfileOptions.m; sourceTree = "<group>"; };
+		7ACA8DE21FE5361400367144 /* LPProfileCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProfileCrypto.m; sourceTree = "<group>"; };
+		7ACA8DE31FE5361400367144 /* LPRenderPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPRenderPassword.m; sourceTree = "<group>"; };
+		7ACA8DE41FE5361400367144 /* LPProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPProfile.h; sourceTree = "<group>"; };
+		7ACA8DE51FE5361400367144 /* LPEntropyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPEntropyResponse.h; sourceTree = "<group>"; };
+		7ACA8DE61FE5361400367144 /* LPRenderPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPRenderPassword.h; sourceTree = "<group>"; };
+		7ACA8DF41FE536D300367144 /* LPProfileTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProfileTests.m; sourceTree = "<group>"; };
+		7ACA8DF51FE536D300367144 /* LPRenderPasswordTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPRenderPasswordTests.m; sourceTree = "<group>"; };
+		7ACA8DF61FE536D300367144 /* LPProfileCryptoTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProfileCryptoTests.m; sourceTree = "<group>"; };
+		7ACA8DF71FE536D300367144 /* LPCoreTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPCoreTests.m; sourceTree = "<group>"; };
+		7ACA8DF81FE536D300367144 /* LPProfileOptionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPProfileOptionsTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -335,6 +369,19 @@
 		7ACA8CB91FE533A000367144 /* LessPassCore */ = {
 			isa = PBXGroup;
 			children = (
+				7ACA8DDE1FE5361300367144 /* LPCore.h */,
+				7ACA8DE01FE5361400367144 /* LPCore.m */,
+				7ACA8DE51FE5361400367144 /* LPEntropyResponse.h */,
+				7ACA8DDF1FE5361300367144 /* LPEntropyResponse.m */,
+				7ACA8DE41FE5361400367144 /* LPProfile.h */,
+				7ACA8DDA1FE5361300367144 /* LPProfile.m */,
+				7ACA8DDB1FE5361300367144 /* LPProfileCrypto.h */,
+				7ACA8DE21FE5361400367144 /* LPProfileCrypto.m */,
+				7ACA8DDC1FE5361300367144 /* LPProfileOptions.h */,
+				7ACA8DE11FE5361400367144 /* LPProfileOptions.m */,
+				7ACA8DDD1FE5361300367144 /* LPRenderPassword_Private.h */,
+				7ACA8DE61FE5361400367144 /* LPRenderPassword.h */,
+				7ACA8DE31FE5361400367144 /* LPRenderPassword.m */,
 				7ACA8CD11FE534C000367144 /* libtommath */,
 				7ACA8CBA1FE533A000367144 /* LessPassCore.h */,
 				7ACA8CBB1FE533A000367144 /* Info.plist */,
@@ -345,7 +392,11 @@
 		7ACA8CC41FE533A000367144 /* LessPassCoreTests */ = {
 			isa = PBXGroup;
 			children = (
-				7ACA8CC51FE533A000367144 /* LessPassCoreTests.m */,
+				7ACA8DF71FE536D300367144 /* LPCoreTests.m */,
+				7ACA8DF61FE536D300367144 /* LPProfileCryptoTests.m */,
+				7ACA8DF81FE536D300367144 /* LPProfileOptionsTests.m */,
+				7ACA8DF41FE536D300367144 /* LPProfileTests.m */,
+				7ACA8DF51FE536D300367144 /* LPRenderPasswordTests.m */,
 				7ACA8CC71FE533A000367144 /* Info.plist */,
 			);
 			path = LessPassCoreTests;
@@ -499,10 +550,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ACA8DD01FE534F500367144 /* tommath_class.h in Headers */,
+				7ACA8DEA1FE5361400367144 /* LPRenderPassword_Private.h in Headers */,
+				7ACA8DEB1FE5361400367144 /* LPCore.h in Headers */,
+				7ACA8DF31FE5361400367144 /* LPRenderPassword.h in Headers */,
+				7ACA8DE91FE5361400367144 /* LPProfileOptions.h in Headers */,
+				7ACA8DF21FE5361400367144 /* LPEntropyResponse.h in Headers */,
+				7ACA8DF11FE5361400367144 /* LPProfile.h in Headers */,
 				7ACA8CC81FE533A000367144 /* LessPassCore.h in Headers */,
 				7ACA8DB51FE534F400367144 /* tommath_private.h in Headers */,
 				7ACA8DD61FE534F500367144 /* tommath_superclass.h in Headers */,
 				7ACA8DAA1FE534F400367144 /* tommath.h in Headers */,
+				7ACA8DE81FE5361400367144 /* LPProfileCrypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,11 +666,14 @@
 				7ACA8DAF1FE534F400367144 /* bn_fast_s_mp_mul_digs.c in Sources */,
 				7ACA8D8D1FE534F400367144 /* bn_mp_zero.c in Sources */,
 				7ACA8D831FE534F400367144 /* bn_mp_radix_smap.c in Sources */,
+				7ACA8DF01FE5361400367144 /* LPRenderPassword.m in Sources */,
 				7ACA8D5D1FE534F400367144 /* bn_mp_cnt_lsb.c in Sources */,
 				7ACA8DD71FE534F500367144 /* bn_mp_gcd.c in Sources */,
 				7ACA8DD51FE534F500367144 /* bn_mp_fwrite.c in Sources */,
 				7ACA8DCF1FE534F400367144 /* bn_mp_montgomery_reduce.c in Sources */,
 				7ACA8DAD1FE534F400367144 /* bn_mp_montgomery_setup.c in Sources */,
+				7ACA8DE71FE5361400367144 /* LPProfile.m in Sources */,
+				7ACA8DEE1FE5361400367144 /* LPProfileOptions.m in Sources */,
 				7ACA8D5F1FE534F400367144 /* bn_mp_grow.c in Sources */,
 				7ACA8D6D1FE534F400367144 /* bn_mp_div.c in Sources */,
 				7ACA8DCE1FE534F400367144 /* bn_mp_div_2.c in Sources */,
@@ -672,6 +733,7 @@
 				7ACA8DB21FE534F400367144 /* bn_mp_read_radix.c in Sources */,
 				7ACA8D5C1FE534F400367144 /* bn_mp_add_d.c in Sources */,
 				7ACA8D9C1FE534F400367144 /* bn_mp_init_set_int.c in Sources */,
+				7ACA8DED1FE5361400367144 /* LPCore.m in Sources */,
 				7ACA8D6E1FE534F400367144 /* bn_mp_sqrtmod_prime.c in Sources */,
 				7ACA8D8B1FE534F400367144 /* bn_mp_to_signed_bin_n.c in Sources */,
 				7ACA8D901FE534F400367144 /* bn_mp_to_signed_bin.c in Sources */,
@@ -694,6 +756,7 @@
 				7ACA8DBE1FE534F400367144 /* bn_mp_mul.c in Sources */,
 				7ACA8DAC1FE534F400367144 /* bn_mp_read_unsigned_bin.c in Sources */,
 				7ACA8D771FE534F400367144 /* bn_mp_prime_rabin_miller_trials.c in Sources */,
+				7ACA8DEF1FE5361400367144 /* LPProfileCrypto.m in Sources */,
 				7ACA8D6F1FE534F400367144 /* bn_mp_prime_random_ex.c in Sources */,
 				7ACA8D571FE534F400367144 /* bn_mp_clear_multi.c in Sources */,
 				7ACA8D781FE534F400367144 /* bn_mp_rshd.c in Sources */,
@@ -713,6 +776,7 @@
 				7ACA8D7A1FE534F400367144 /* bn_mp_lshd.c in Sources */,
 				7ACA8D601FE534F400367144 /* bn_mp_n_root.c in Sources */,
 				7ACA8DBD1FE534F400367144 /* bn_mp_dr_setup.c in Sources */,
+				7ACA8DEC1FE5361400367144 /* LPEntropyResponse.m in Sources */,
 				7ACA8DA41FE534F400367144 /* bn_reverse.c in Sources */,
 				7ACA8D5B1FE534F400367144 /* bn_mp_2expt.c in Sources */,
 				7ACA8D5E1FE534F400367144 /* bn_mp_n_root_ex.c in Sources */,
@@ -739,7 +803,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ACA8CC61FE533A000367144 /* LessPassCoreTests.m in Sources */,
+				7ACA8DFD1FE536D300367144 /* LPProfileOptionsTests.m in Sources */,
+				7ACA8DFC1FE536D300367144 /* LPCoreTests.m in Sources */,
+				7ACA8DFA1FE536D300367144 /* LPRenderPasswordTests.m in Sources */,
+				7ACA8DF91FE536D300367144 /* LPProfileTests.m in Sources */,
+				7ACA8DFB1FE536D300367144 /* LPProfileCryptoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,10 +942,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = LessPassCore/libtommath/;
 				INFOPLIST_FILE = LessPassCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-Wno-nullability-completeness";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xdappfactory.LessPassCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -895,10 +965,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = LessPassCore/libtommath/;
 				INFOPLIST_FILE = LessPassCore/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-Wno-nullability-completeness";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xdappfactory.LessPassCore;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -913,6 +985,7 @@
 				DEVELOPMENT_TEAM = K66NHNFE93;
 				INFOPLIST_FILE = LessPassCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-Wno-nullability-completeness";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xdappfactory.LessPassCoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -926,6 +999,7 @@
 				DEVELOPMENT_TEAM = K66NHNFE93;
 				INFOPLIST_FILE = LessPassCoreTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-Wno-nullability-completeness";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xdappfactory.LessPassCoreTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
