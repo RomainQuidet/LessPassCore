@@ -7,9 +7,24 @@ This framework is a port of the LessPass original framework in js : [LessPass](h
 ## License
 Released under the GPL v3 license
 
-## Compatibility
+## Integration
 This framework requires iOS 9.0+
+
 It is compatible with ObjC and Swift.
+
+**With cocoapods:**
+
+Add this to your podfile
+```
+pod 'LessPassCore', '~> 1.0'
+```
+
+**With Carthage:**
+
+Add this to your cartfile
+```
+github "RomainQuidet/LessPassCore" ~> 1.0
+```
 
 ## Usage
 
